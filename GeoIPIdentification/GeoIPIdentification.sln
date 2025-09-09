@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoIPIdentification.Domain", "GeoIPIdentification.Domain\GeoIPIdentification.Domain.csproj", "{9F10B770-A7C4-45A8-8712-3B770DB487C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoIPIdentification.Applicaiton", "GeoIPIdentification.Applicaiton\GeoIPIdentification.Applicaiton.csproj", "{11F6B291-B242-40B5-B9C6-F69CE84630B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoIPIdentification.Infrastructure", "GeoIPIdentification.Infrastructure\GeoIPIdentification.Infrastructure.csproj", "{88798567-09AE-4FD2-8801-56816FC8AE66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoIPIdentification.API", "GeoIPIdentification.API\GeoIPIdentification.API.csproj", "{F87DC1C7-FFC1-4B05-840F-0DA18E203036}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F10B770-A7C4-45A8-8712-3B770DB487C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F10B770-A7C4-45A8-8712-3B770DB487C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F10B770-A7C4-45A8-8712-3B770DB487C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F10B770-A7C4-45A8-8712-3B770DB487C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11F6B291-B242-40B5-B9C6-F69CE84630B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11F6B291-B242-40B5-B9C6-F69CE84630B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11F6B291-B242-40B5-B9C6-F69CE84630B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11F6B291-B242-40B5-B9C6-F69CE84630B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88798567-09AE-4FD2-8801-56816FC8AE66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88798567-09AE-4FD2-8801-56816FC8AE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88798567-09AE-4FD2-8801-56816FC8AE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88798567-09AE-4FD2-8801-56816FC8AE66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F87DC1C7-FFC1-4B05-840F-0DA18E203036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87DC1C7-FFC1-4B05-840F-0DA18E203036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87DC1C7-FFC1-4B05-840F-0DA18E203036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87DC1C7-FFC1-4B05-840F-0DA18E203036}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02FAAC31-D8F8-496C-BC2C-6BBCFEDAD766}
+	EndGlobalSection
+EndGlobal
