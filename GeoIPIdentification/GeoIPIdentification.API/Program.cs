@@ -1,5 +1,7 @@
 using GeoIPIdentification.Applicaiton.Interfaces;
+using GeoIPIdentification.Infrastructure.Persistence;
 using GeoIPIdentification.Infrastructure.Services;
+using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +20,9 @@ builder.Host.UseSerilog();
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHttpClient<IIpBaseService, IpBaseService>();
+
+builder.Services.AddDbContext<GeoIpDbContext>(options =>
+    options.UseSqlite("Data Source=geoip.db"));
 
 var app = builder.Build();
 
