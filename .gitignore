@@ -53,3 +53,4 @@ CodeCoverage/
 TestResult.xml
 nunit-*.xml
 /GeoIPIdentification/.vs/GeoIPIdentification
+/GeoIPIdentification/.vs/ProjectEvaluation
